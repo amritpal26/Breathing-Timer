@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TimerSeconds2</key>
+	<array>
+		<integer>30</integer>
+		<integer>60</integer>
+		<integer>90</integer>
+		<integer>120</integer>
+		<integer>150</integer>
+		<integer>180</integer>
+		<integer>210</integer>
+		<integer>240</integer>
+		<integer>270</integer>
+		<integer>300</integer>
+	</array>
+</dict>
+</plist>

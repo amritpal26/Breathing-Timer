@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334A8D8FEEA12CE17CBC58C2 /* Pods_Breathing_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B911B44935F492F914FDBAA5 /* Pods_Breathing_Timer.framework */; };
+		F00C6C1F2146EFCA00547259 /* final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F00C6C1E2146EFC900547259 /* final.mp3 */; };
 		F0E293682144E9F0006989FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E293672144E9F0006989FF /* AppDelegate.swift */; };
-		F0E2936A2144E9F0006989FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E293692144E9F0006989FF /* ViewController.swift */; };
+		F0E2936A2144E9F0006989FF /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E293692144E9F0006989FF /* TimerController.swift */; };
 		F0E2936D2144E9F0006989FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E2936B2144E9F0006989FF /* Main.storyboard */; };
 		F0E2936F2144E9F1006989FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E2936E2144E9F1006989FF /* Assets.xcassets */; };
 		F0E293722144E9F1006989FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E293702144E9F1006989FF /* LaunchScreen.storyboard */; };
+		F0E2937A2144EB21006989FF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E293792144EB21006989FF /* SettingViewController.swift */; };
+		F0E2937C2144EB32006989FF /* pickerData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0E2937B2144EB31006989FF /* pickerData.plist */; };
+		F0E293832144EB9A006989FF /* end_beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E293822144EB9A006989FF /* end_beep.mp3 */; };
+		F0F0E65A2150C642006C54FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0F0E6592150C642006C54FE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1042C79227F75E4A6041F7 /* Pods-Breathing Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breathing Timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breathing Timer/Pods-Breathing Timer.release.xcconfig"; sourceTree = "<group>"; };
+		4B57AB794706B90F003B049A /* Pods-Breathing Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breathing Timer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breathing Timer/Pods-Breathing Timer.debug.xcconfig"; sourceTree = "<group>"; };
+		B911B44935F492F914FDBAA5 /* Pods_Breathing_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breathing_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00C6C1E2146EFC900547259 /* final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = final.mp3; sourceTree = "<group>"; };
 		F0E293642144E9F0006989FF /* Breathing Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breathing Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E293672144E9F0006989FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0E293692144E9F0006989FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0E293692144E9F0006989FF /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		F0E2936C2144E9F0006989FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0E2936E2144E9F1006989FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0E293712144E9F1006989FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E293732144E9F1006989FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E293792144EB21006989FF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F0E2937B2144EB31006989FF /* pickerData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pickerData.plist; sourceTree = "<group>"; };
+		F0E293822144EB9A006989FF /* end_beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = end_beep.mp3; sourceTree = "<group>"; };
+		F0F0E6592150C642006C54FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334A8D8FEEA12CE17CBC58C2 /* Pods_Breathing_Timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6908CD3FFBF3A0E0209AFA63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B57AB794706B90F003B049A /* Pods-Breathing Timer.debug.xcconfig */,
+				2E1042C79227F75E4A6041F7 /* Pods-Breathing Timer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		764D656A73242042478AB47C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B911B44935F492F914FDBAA5 /* Pods_Breathing_Timer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F0E2935B2144E9F0006989FF = {
 			isa = PBXGroup;
 			children = (
 				F0E293662144E9F0006989FF /* Breathing Timer */,
 				F0E293652144E9F0006989FF /* Products */,
+				6908CD3FFBF3A0E0209AFA63 /* Pods */,
+				764D656A73242042478AB47C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +89,26 @@
 			isa = PBXGroup;
 			children = (
 				F0E293672144E9F0006989FF /* AppDelegate.swift */,
-				F0E293692144E9F0006989FF /* ViewController.swift */,
+				F0E293692144E9F0006989FF /* TimerController.swift */,
+				F0E293792144EB21006989FF /* SettingViewController.swift */,
 				F0E2936B2144E9F0006989FF /* Main.storyboard */,
 				F0E2936E2144E9F1006989FF /* Assets.xcassets */,
 				F0E293702144E9F1006989FF /* LaunchScreen.storyboard */,
 				F0E293732144E9F1006989FF /* Info.plist */,
+				F0F0E6592150C642006C54FE /* GoogleService-Info.plist */,
+				F0E2937B2144EB31006989FF /* pickerData.plist */,
+				F0E293812144EB8D006989FF /* sound */,
 			);
 			path = "Breathing Timer";
+			sourceTree = "<group>";
+		};
+		F0E293812144EB8D006989FF /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				F00C6C1E2146EFC900547259 /* final.mp3 */,
+				F0E293822144EB9A006989FF /* end_beep.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0E293762144E9F1006989FF /* Build configuration list for PBXNativeTarget "Breathing Timer" */;
 			buildPhases = (
+				2E159A743D40C7C3AB6DCE34 /* [CP] Check Pods Manifest.lock */,
 				F0E293602144E9F0006989FF /* Sources */,
 				F0E293612144E9F0006989FF /* Frameworks */,
 				F0E293622144E9F0006989FF /* Resources */,
+				8BF54DC977531BE7269A8178 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +173,69 @@
 			files = (
 				F0E293722144E9F1006989FF /* LaunchScreen.storyboard in Resources */,
 				F0E2936F2144E9F1006989FF /* Assets.xcassets in Resources */,
+				F0E293832144EB9A006989FF /* end_beep.mp3 in Resources */,
+				F00C6C1F2146EFCA00547259 /* final.mp3 in Resources */,
+				F0E2937C2144EB32006989FF /* pickerData.plist in Resources */,
 				F0E2936D2144E9F0006989FF /* Main.storyboard in Resources */,
+				F0F0E65A2150C642006C54FE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E159A743D40C7C3AB6DCE34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Breathing Timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF54DC977531BE7269A8178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Breathing Timer/Pods-Breathing Timer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breathing Timer/Pods-Breathing Timer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0E293602144E9F0006989FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0E2936A2144E9F0006989FF /* ViewController.swift in Sources */,
+				F0E2936A2144E9F0006989FF /* TimerController.swift in Sources */,
 				F0E293682144E9F0006989FF /* AppDelegate.swift in Sources */,
+				F0E2937A2144EB21006989FF /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +377,11 @@
 		};
 		F0E293772144E9F1006989FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B57AB794706B90F003B049A /* Pods-Breathing Timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82Y35HJAN7;
 				INFOPLIST_FILE = "Breathing Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +396,11 @@
 		};
 		F0E293782144E9F1006989FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1042C79227F75E4A6041F7 /* Pods-Breathing Timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82Y35HJAN7;
 				INFOPLIST_FILE = "Breathing Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
